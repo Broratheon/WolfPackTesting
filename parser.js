@@ -1,11 +1,7 @@
 var parse_courses = function()
 {
-	var courses_array;
+	testing = d3.csv("CourseLocations.csv")
 
-	courses_array = d3.csv("CourseLocations.csv", function(courses)
-		{
-			courses_array = courses;
-		})
+	console.log(testing)
 
-	return courses_array;
 }
