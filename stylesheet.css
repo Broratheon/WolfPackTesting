@@ -1,0 +1,31 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	padding:0px;
+	margin:0px;
+}
+
+.chord path {
+  fill-opacity: .67;
+  stroke: #000;
+  stroke-width: .5px;
+}
+
+.filters {
+	float: left;
+	width: 20vw;
+	padding:10px;
+}
+
+.viz {
+	float: right;
+	width:75vw;
+	padding:10px;
+}
+
+#deptsearch {
+	width: 100%;
+	height: 20px;
+}
