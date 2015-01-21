@@ -18,8 +18,6 @@ var parse_courses = function()
     xmlhttp.open("GET", "CourseLocations.csv", false );
     xmlhttp.send();  
 
-	testing = d3.csv.parse(xmlhttp.responseText);
-
-	console.log(testing)
+	return d3.csv.parse(xmlhttp.responseText);
 
 }

@@ -32,7 +32,9 @@
 	<!-- Visualization JS (in body as it edits DOM elements) -->
 	<script src="bundle.js"></script>
 	<script type="text/javascript">
-		parse_courses();
+		var courses = parse_courses();
+
+		console.log("courses:", courses);
 	</script>
 
 </body>
